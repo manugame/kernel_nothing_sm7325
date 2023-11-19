@@ -269,7 +269,7 @@ PRODUCT_PACKAGES += \
 
 # Glyph
 PRODUCT_PACKAGES += \
-    PixelGlyphPhone1
+    PixysGlyphPhone1
 
 # GPS
 PRODUCT_PACKAGES += \
