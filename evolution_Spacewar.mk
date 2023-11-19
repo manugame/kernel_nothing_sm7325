@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/nothing/Spacewar/device.mk)
 
 # Inherit some common PixysOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -35,7 +35,7 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_INCLUDE_OEM_CAMERA := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := pixel_Spacewar
+PRODUCT_NAME := evolution_Spacewar
 PRODUCT_DEVICE := Spacewar
 PRODUCT_BRAND := Nothing
 PRODUCT_MODEL := A063
