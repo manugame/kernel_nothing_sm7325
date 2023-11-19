@@ -21,12 +21,8 @@ $(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
-# RRO (pixys)
-PRODUCT_PACKAGES += \
-    PixysFrameworksSpacewar \
-    PixysSystemUISpacewar
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-pe
 
 # RRO (Spacewar)
 PRODUCT_PACKAGES += \
@@ -273,7 +269,7 @@ PRODUCT_PACKAGES += \
 
 # Glyph
 PRODUCT_PACKAGES += \
-    PixysGlyphPhone1
+    PixelGlyphPhone1
 
 # GPS
 PRODUCT_PACKAGES += \
